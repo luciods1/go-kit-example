@@ -2,15 +2,13 @@
 
 This is my way of seeing go-kit to implement a simple health. I'm using go-kit to "address incidental complexity".
 
-Solving:
+Solving (soiler: can be solve, we are not solving everything):
 - circuit breaking
 - rate limit
+- tracing
 - instrumentation 
 - logging
-
-Honorable mention (can be added as well):
-- tracing (provider not included)
-- monitoring (provider not included)
+- monitoring
 
 Run it by executing (i like port 4041, use whatever you like):
 ```

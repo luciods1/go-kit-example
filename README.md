@@ -21,31 +21,30 @@ curl http://localhost:4041/healthz
 File hierarchy can be address like: 
 
 Great if you have a really small service
-endpoints
+* endpoints
     - profiles
     - users
     - images
-services
+* services
     - profiles
     - users
     - images
-transports 
+* transports 
     - http_profiles
     - grpc_profiles
     - http_users
     - http_images
 
 If you have many resources on one service (don't recommend though):
-profiles
+* profiles
     - service
     - endpoints
     - transport(s)
-users
+* users
     - service
     - endpoints
     - transport(s)
-images
+* images
     - service
     - endpoints
     - transport(s)
-
